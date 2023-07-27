@@ -50,3 +50,6 @@
 curl -X GET http://localhost/movies/ -H 'X-Api-Key: thisiscool'
 curl -X GET http://localhost/books/ -H 'X-Api-Key: thisiscool'
 ```
+
+## stop services
+- docker compose down
