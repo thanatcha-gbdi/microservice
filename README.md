@@ -47,8 +47,8 @@
   - can use the tool like [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) VS Code extension or [Postman](https://www.postman.com/)
   - or can use curl cli command
 ```
-curl -X GET http://localhost/movies/ -H 'X-Api-Key: thisiscool'
-curl -X GET http://localhost/books/ -H 'X-Api-Key: thisiscool'
+curl -X GET http://localhost/movies/ -H "X-Api-Key: thisiscool"
+curl -X GET http://localhost/books/ -H "X-Api-Key: thisiscool"
 ```
 
 ## stop services
